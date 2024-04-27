@@ -1,0 +1,17 @@
+{
+  "name": "tetris",
+  "source": "src/index.htm",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "dependencies": {
+    "parcel": "latest",
+    "reset-css": "^5.0.2"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.12.0",
+    "@types/bun": "latest"
+  },
+  "type": "module"
+}
